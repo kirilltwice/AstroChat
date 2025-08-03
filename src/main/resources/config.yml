@@ -1,0 +1,46 @@
+Settings:
+  Range:
+    enabled: true
+    radius: 100.0
+    symbol: '!'
+
+  Cooldown:
+    enabled: true
+    time: 3
+
+  Formats:
+    Chat:
+      default:
+        local: '<gray>⌞<c:#c9ff45><b>L</b></c>⌝</gray> <dark_gray>|</dark_gray> <prefix><player><suffix> <c:#969aff>▹</c> <gray><message></gray>'
+        global: '<gray>⌞<c:#c9ff45><b>L</b></c>⌝</gray> <dark_gray>|</dark_gray> <prefix><player><suffix> <c:#969aff>▹</c> <gray><message></gray>'
+
+Messages:
+  Plugin:
+    prefix: '<gray>⌞<gradient:#fc5c5c:#ffa500><b>AstroChat</b></gradient>⌝</gray> <yellow><b>▸</b></yellow>'
+    reloaded: '<prefix> <gray>⌞<c:#35f7a6><b>✔</b></c>⌝</gray> Плагин перезагружен.'
+    no-permission: '<prefix> &7⌞&c&l✖&7⌝ &fУ вас недостаточно прав!'
+    invalid-command: '<prefix> <gray>⌞<c:#ff7c7c><b>✖</b></c>⌝</gray> Неизвестная команда.'
+
+    help:
+      - ''
+      - ' <c:#fc5c5c><b>┏</b></c>'
+      - ' <c:#fd6b4a><b>┃</b></c> <prefix> Помощь по плагину'
+      - ' <c:#fd7937><b>┃</b></c>'
+      - ' <c:#fe9612><b>┃</b></c> <dark_gray>◆</dark_gray> <c:#b6f6f6>/astrochat reload</c> <gray>–</gray> Перезагрузить плагин.'
+      - ' <c:#ffa500><b>┗</b></c>'
+      - ''
+
+Chat:
+  Cooldown:
+    formats: 'секунду/секунды/секунд'
+    message: '<prefix> <gray>⌞<c:#ffbf6e><b>!</b></c>⌝</gray> Вы сможете писать в чат через <c:#35f7a6><time></c> <time-format>.'
+  Repeat:
+    message: '<prefix> <gray>⌞<c:#ffbf6e><b>!</b></c>⌝</gray> Не пишите одно и тоже сообщение.'
+  Anti-caps:
+    percent: 50
+    message: '<prefix> <gray>⌞<c:#ffbf6e><b>!</b></c>⌝</gray> Не капси.'
+    type: REPLACE
+  Empty-color:
+    message: '<prefix> <gray>⌞<c:#ffbf6e><b>!</b></c>⌝</gray> Нельзя отправлять пустые сообщения с цветовыми кодами.'
+  Empty-global:
+    message: '<prefix> <gray>⌞<c:#ffbf6e><b>!</b></c>⌝</gray> Нельзя отправлять пустые глобальные сообщения.'

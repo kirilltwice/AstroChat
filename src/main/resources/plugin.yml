@@ -1,0 +1,10 @@
+name: AstroChat
+main: dev.twice.astrochat.ChatPlugin
+
+authors: [Twice]
+
+version: '1.0-SNAPSHOT'
+api-version: '1.21'
+
+softdepend:
+  - LuckPerms
